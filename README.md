@@ -29,4 +29,3 @@ Commands (permission level 2):
 -  /function trader_mirage:set_hint {value:0}      (Also FYI: 1 shows the faint particle hint and 0 hides it)
 
 For Minecraft Java 1.21 and above.
-License: GNU General Public License v3.0
