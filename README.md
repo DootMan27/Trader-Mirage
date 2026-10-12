@@ -1,5 +1,12 @@
 # Trader Mirage
 
+## What is this datapack/mod?
+
+This enables the illusioner (already present in the game and normally can only be summoned with the /summon command) to appear by making it so each wandering trader has a chance to be one in disguise!
+
+
+## How this works
+
 Each wandering trader gets one secret roll when it first appears.
 Chance = (ordinary traders since the last illusioner + 1) x difficulty value, capped at 100%.
 So the base chance and the per-miss increase are the same number, set by difficulty:
@@ -16,10 +23,10 @@ When a roll succeeds, the streak resets to zero.
 Commands (permission level 2):
   /function trader_mirage:status
   /function trader_mirage:reset
-  /function trader_mirage:set_easy {value:50}     (permille: 50 = 5%)
+  /function trader_mirage:set_easy {value:50}     (FYI: 50 = 5%)
   /function trader_mirage:set_normal {value:100}
   /function trader_mirage:set_hard {value:150}
-  /function trader_mirage:set_hint {value:0}      (0 hides the faint particle tell)
+  /function trader_mirage:set_hint {value:0}      (Also FYI: 1 shows the faint particle hint and 0 hides it)
 
 Written for Minecraft Java 1.21 (pack_format 48; singular `function` folders).
-License: (add your own)
+License: GNU General Public License v3.0
