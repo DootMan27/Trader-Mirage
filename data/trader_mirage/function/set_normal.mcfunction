@@ -1,2 +1,0 @@
-# /function trader_mirage:set_normal {value:50}   (permille: 50 = 5%; used as base chance AND per-miss increase)
-$scoreboard players set #normal tm_cfg $(value)
