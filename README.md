@@ -28,5 +28,5 @@ Commands (permission level 2):
   /function trader_mirage:set_hard {value:150}
   /function trader_mirage:set_hint {value:0}      (Also FYI: 1 shows the faint particle hint and 0 hides it)
 
-Written for Minecraft Java 1.21 (pack_format 48; singular `function` folders).
+For Minecraft Java 1.21 (pack_format 48).
 License: GNU General Public License v3.0
