@@ -21,12 +21,12 @@ A disguised trader turns into an illusioner when a player interacts with it or h
 When a roll succeeds, the streak resets to zero.
 
 Commands (permission level 2):
-  /function trader_mirage:status
-  /function trader_mirage:reset
-  /function trader_mirage:set_easy {value:50}     (FYI: 50 = 5%)
-  /function trader_mirage:set_normal {value:100}
-  /function trader_mirage:set_hard {value:150}
-  /function trader_mirage:set_hint {value:0}      (Also FYI: 1 shows the faint particle hint and 0 hides it)
+-  /function trader_mirage:status
+-  /function trader_mirage:reset
+-  /function trader_mirage:set_easy {value:50}     (FYI: 50 = 5%)
+-  /function trader_mirage:set_normal {value:100}
+-  /function trader_mirage:set_hard {value:150}
+-  /function trader_mirage:set_hint {value:0}      (Also FYI: 1 shows the faint particle hint and 0 hides it)
 
 For Minecraft Java 1.21 and above.
 License: GNU General Public License v3.0
